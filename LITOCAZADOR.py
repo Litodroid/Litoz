@@ -56,7 +56,6 @@ def consultar_celuzador(numero_telefono, timeout_seconds=10):
         "x-rapidapi-host": api_host.strip(),
         "User-Agent": "celuzador-client/1.0"
     }
-
     payload = {"telefono": numero_telefono}
 
     print(f"{Fore.CYAN}Consultando Celuzador API:{Style.RESET_ALL} {url}\n")
